@@ -21,7 +21,7 @@ def find_rating():
         if rapid_rating=='?':
             result_label.configure(text=f'{nickname} hali {combo.get()} rejimida o\'yin o\'ynamagan')
         else:
-            result_label.configure(text=f'Now {nickname}\'s {combo.get()} rating is {rapid_rating}')
+            result_label.configure(text=f'Hozirgi vaqtda {nickname}ning {combo.get()} reytingi: {rapid_rating}')
     except AttributeError:
         result_label.configure(text='Bunday foydalanuvchi topilmadi!')
 
